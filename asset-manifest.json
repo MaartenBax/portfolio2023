@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio2023/static/css/main.a524f979.css",
+    "main.js": "/portfolio2023/static/js/main.903cc587.js",
+    "static/media/MB_Logo.png": "/portfolio2023/static/media/MB_Logo.41660ee036748919f4f5.png",
+    "static/media/R3DMYST-- REGULAR.woff": "/portfolio2023/static/media/R3DMYST-- REGULAR.5ec89dd852e020773d6d.woff",
+    "index.html": "/portfolio2023/index.html",
+    "main.a524f979.css.map": "/portfolio2023/static/css/main.a524f979.css.map",
+    "main.903cc587.js.map": "/portfolio2023/static/js/main.903cc587.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a524f979.css",
+    "static/js/main.903cc587.js"
+  ]
+}
