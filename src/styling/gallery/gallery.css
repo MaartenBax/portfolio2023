@@ -1,0 +1,121 @@
+.gallery{
+    width: 100%;
+    max-width: 1024px; 
+}
+
+.gallery-title{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.25rem 1rem;
+    color: #525252;
+}
+
+.gallery-flex{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.gallery-top{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    grid-template-areas: 
+    'current current set1 set2'
+    'current current set3 set4';
+}
+
+#gallery-current{
+    width: 50%;
+}
+.gallery-top-left{
+    width: 100%;
+    height: 100%;
+    grid-area: current;
+    aspect-ratio: 1/1;
+}
+
+#grid-top-left .currentImg{
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+
+.gallery-top-right{
+    width: 50%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr) ;
+}
+
+.galleryImage{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.gallery-bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.gallery-bottom-buttons{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+
+.gallery-bottom-information{
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 0.4rem #CCCCCC;
+}
+
+@media all and (max-width: 1024px){
+    .gallery-title{
+        padding: 0.25rem 0rem;
+    }
+}
+@media all and (max-width: 700px){
+    .gallery-top{
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        'current current current current set1'
+        'current current current current set2'
+        'current current current current set3'
+        'current current current current set4'; 
+    }
+
+    .gallery-bottom{
+        flex-direction: column;
+    }
+
+    .gallery-bottom-buttons{
+        width: 100%;
+    }
+
+    .gallery-bottom-information{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 500px){
+    .gallery-top{
+        gap: 5px;
+    }
+
+    .gallery-bottom-buttons{
+        gap: 5px;
+    }
+
+
+}

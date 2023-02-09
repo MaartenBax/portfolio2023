@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* variables */
+:root {
+  --tileSize: 10rem;
+}
+
+/* custom font */
+
+@font-face {
+  font-family: "Redmyst";
+  src: url(./../../fonts/R3DMYST--\ REGULAR.woff);
+}
+
+body{
+  background-color: #fcfcfc;
+  font-weight: 500;
+  color: #888888;
+}
+
+.font-redmyst {
+  font-family: "Redmyst", sans-serif;
+  letter-spacing: 0.2em;
+}
+
+@media all and (max-width: 1024px){
+  body{
+      padding: 0 10px;
+  }
+}

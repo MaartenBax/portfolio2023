@@ -1,0 +1,13 @@
+-- Next --
+
+
+
+-- Backlog --
+
+TODO 
+- slowly transition colors on bg tiles (occasionally pick random tiles to transition to a different bg color, probably with JS)
+    - fade red/black to white
+    - random select a block
+- empty gallery not clickable
+- gallery unselected images greyscale
+- new category foto

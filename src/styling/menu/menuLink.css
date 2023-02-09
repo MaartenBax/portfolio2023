@@ -1,0 +1,32 @@
+.menu-link{
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    background: #fcfcfc;
+    color: #888888;
+    transition: 0.5s;
+}
+
+.menu-link:hover {
+    background-color: #a00800;
+    transition: 0.5s;
+  }
+  
+.menu-link p {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    transform: translateX(0);
+    left: 0;
+    transition-property: transform, color, left;
+    transition: 0.5s;
+}
+
+.menu-link:hover p {
+    transform: translateX(-100%);
+    left: 100%;
+    font-family: sans-serif;
+    color: #fcfcfc;
+    transition: 0.5s;
+}
+  
+  
