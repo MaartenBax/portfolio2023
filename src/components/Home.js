@@ -3,6 +3,7 @@ import Hero from './Hero'
 import ImageGallery from './image_slides/ImageGallery'
 import Menu from './nav_menu/Menu';
 import MenuIcon from './nav_menu/MenuIcon';
+import Data from './data/imageGalleriesData';
 import "./../styling/base/main.css";
 
 export default function Home() {
@@ -10,15 +11,11 @@ export default function Home() {
   const [imageGalleriesData, setImageGalleriesData] = useState(null)
 
   useEffect(() => {
-    GetData()
-    // console.log(imageGalleriesData)
+    GetData();
   }, [])
 
   async function GetData() {
-    const res = await fetch('/imageGalleriesData.json')
-    const data = await res.json()
-    // console.log(data)
-    return setImageGalleriesData(data)
+    return setImageGalleriesData(Data)
   }
 
   function ToggleMenu() {

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/%7Brepo-name%7D/static/css/main.b9237906.css",
-    "main.js": "/%7Brepo-name%7D/static/js/main.903cc587.js",
-    "static/media/MB_Logo.png": "/%7Brepo-name%7D/static/media/MB_Logo.41660ee036748919f4f5.png",
-    "static/media/R3DMYST-- REGULAR.woff": "/%7Brepo-name%7D/static/media/R3DMYST-- REGULAR.5ec89dd852e020773d6d.woff",
-    "index.html": "/%7Brepo-name%7D/index.html",
-    "main.b9237906.css.map": "/%7Brepo-name%7D/static/css/main.b9237906.css.map",
-    "main.903cc587.js.map": "/%7Brepo-name%7D/static/js/main.903cc587.js.map"
+    "main.css": "/portfolio2023/static/css/main.167434a3.css",
+    "main.js": "/portfolio2023/static/js/main.1a29489b.js",
+    "static/media/MB_Logo.png": "/portfolio2023/static/media/MB_Logo.41660ee036748919f4f5.png",
+    "static/media/R3DMYST-- REGULAR.woff": "/portfolio2023/static/media/R3DMYST-- REGULAR.5ec89dd852e020773d6d.woff",
+    "index.html": "/portfolio2023/index.html",
+    "main.167434a3.css.map": "/portfolio2023/static/css/main.167434a3.css.map",
+    "main.1a29489b.js.map": "/portfolio2023/static/js/main.1a29489b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9237906.css",
-    "static/js/main.903cc587.js"
+    "static/css/main.167434a3.css",
+    "static/js/main.1a29489b.js"
   ]
 }

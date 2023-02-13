@@ -1,6 +1,8 @@
 #hero-container{
     display: flex;
     justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 #hero{
@@ -46,7 +48,7 @@
     grid-column-end: 9;
     grid-row-start: 3;
     grid-row-end: 6;
-    background-image: url("/assets/Menu_en_home_page_designs/MB_Logo.png");
+    background-image: url("/public/images/MB_Logo.png");
     background-size: contain;
 }
 
